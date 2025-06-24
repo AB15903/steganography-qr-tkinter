@@ -1,6 +1,9 @@
 #  🔐 Steanography + QR Code Encryption Tool (GUI-Based)
 
-This project is a Python-based steganography tool with a graphical user interface (GUI) that allows users to:
+
+## 📌 Description
+This Python project allows hiding secret message (or QR codes) inside images using XOR and LSB steganography with a user-friendly GUI.
+
 
 - Hide a secret text message inside an image using XOR encryption.
 - Generate a QR code from a secret message and hide the QR inside the image.
@@ -48,6 +51,9 @@ This project is a Python-based steganography tool with a graphical user interfac
 Make sure to install the required dependencies:
 
 ``` bash
+# Install required libraries
 pip install -r requirements.txt
+
+# Run the application
 python app.py
 
