@@ -1,0 +1,20 @@
+# Ignore virutal environments
+.venv/
+venv/
+
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Ignore editor config
+.vscode/
+
+# Ignore generated images and outputs (optional)
+*.png
+output/
+images/
+assets/
+
+# BUT allow doc folder and its content
+!doc/
+!doc/*.png
